@@ -1,0 +1,34 @@
+@import "@/src/Sections/Navbar/Navbar.css";
+@import "@/src/Sections/Header/Header.css";
+@import "@/src/Sections/ProductAction/ProductAction.css";
+@import "@/src/Sections/DeliveryOptions/DeliveryOptions.css";
+@import "@/src/Sections/PaymentOptions/PaymentOptions.css";
+@import "@/src/Sections/LeaveRequestForm/LeaveRequestForm.css";
+@import "@/src/Sections/Footer/Footer.css";
+
+@import "@/src/Sections/DeliveryInfo/DeliveryInfo.css";
+@import "@/src/Sections/PaymentInfo/PaymentInfo.css";
+@import "@/src/Sections/ReturnsInfo/ReturnsInfo.css";
+@import "@/src/Sections/ProductInfo/ProductInfo.css";
+@import "@/src/Sections/RelatedProducts/RelatedProducts.css";
+@import "@/src/Sections/PopularProducts/PopularProducts.css";
+@import "@/src/Sections/ProductAccessories/ProductAccessories.css";
+@import "@/src/Sections/FavoriteProducts/FavoriteProducts.css";
+@import "@/src/Sections/ComparisonProducts/ComparisonProducts.css";
+@import "@/src/Sections/SubcategoryProducts/SubcategoryProducts.css";
+@import "@/src/Sections/SubcategoryProducts2/SubcategoryProducts2.css";
+@import "@/src/Sections/SubcategoryProducts3/SubcategoryProducts3.css";
+@import "@/src/Sections/SubcategoryProducts4/SubcategoryProducts4.css";
+@import "@/src/Sections/CartComponent/CartComponent.css";
+
+@import "@/src/Sections/CatalogComponent/CatalogComponent.css";
+@import "@/src/Components/CitySelector/CitySelector.css";
+@import "@/src/Components/ServicesDropdown/ServicesDropdown.css";
+@import "@/src/Components/LeaveRequestForm/LeaveRequestForm2.css";
+
+@import "@/src/Sections/PrivacyPolicy/PrivacyPolicy.css";
+@import "@/src/Sections/PublicOffer/PublicOffer.css";
+
+@import "@/src/Sections/AboutUs/AboutUs.css";
+@import "@/src/Sections/ForCustomersComponent/ForCustomersComponent.css";
+@import "@/src/Sections/ContactsComponent/ContactsComponent.css";

@@ -1,0 +1,156 @@
+.public-offer {
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.public-offer__breadcrumb {
+    width: 200px;
+    height: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-dark-blue);
+    white-space: nowrap;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.public-offer__breadcrumb a {
+    text-decoration: none;
+    color: var(--text-dark-blue);
+}
+
+.public-offer__title {   
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--background-dark-blue);
+    margin-bottom: 25px;
+}
+
+.public-offer__list {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+.public-offer__item {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: var(--text-dark-blue);
+}
+
+.public-offer__subtitle {
+    color: var(--text-dark-blue);
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 10px; 
+    margin-top: 25px;
+}
+
+.public-offer__intro p,
+.public-offer__note p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: var(--text-dark-blue);
+    margin-bottom: 25px;
+}
+
+.public-offer__content {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 1440px) {
+    .public-offer {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .public-offer {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .public-offer__breadcrumb {
+        width: 196px;
+        height: 15px;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14.52px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--text-dark-blue);
+        white-space: nowrap;
+        margin-top: 25px;
+        margin-bottom: 32px;
+    }
+    .public-offer__title {
+        width: 94px;
+        height: 24px;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.2px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--background-dark-blue);
+        margin-bottom: 20px;
+    }
+    .public-offer__item {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.94px;
+        text-align: left;
+        color: var(--text-dark-blue);
+    }
+    .public-offer__intro p,
+    .public-offer__note p {
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.94px;
+        text-align: left;
+        color: var(--text-dark-blue);
+        margin-bottom: 15px;
+    }
+    .public-offer__content {
+        margin-bottom: 0px;
+    }
+}

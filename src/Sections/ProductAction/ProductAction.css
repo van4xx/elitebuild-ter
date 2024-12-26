@@ -1,0 +1,217 @@
+#product-action {
+    /*height: 664px;*/
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.product-action__content {
+    width: 1400px;
+    /*height: 484px;*/
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, minmax(232px, 1fr));
+    gap: 20px 20px;   
+    margin-bottom: 25px;
+    
+}
+.product-action__block {
+    width: 690px;
+    height: 232px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.product-action__block--visible {
+    opacity: 1;
+    transform: scale(1);
+}
+.product-action__block--1 {
+    background-image: url('/images/Акция.png');
+}
+
+.product-action__block--2 {
+    background-image: url('/images/Акция (3).png');
+}
+
+.product-action__block--3 {
+    background-image: url('/images/Акция (1).png');
+}
+
+.product-action__block--4 {
+    background-image: url('/images/Акция (4).png');
+}
+
+.product-action__block--5 {
+    background-image: url('/images/Акция.png');
+}
+.product-action__block--6 {
+    background-image: url('/images/Акция.png');
+}
+.product-action__block--7 {
+    background-image: url('/images/Акция.png');
+}
+.product-action__block--8 {
+    background-image: url('/images/Акция.png');
+}
+
+.product-action__show-all {
+    width: 320px;
+    height: 55px;
+    background-color: var(--background-dark-blue, #052659);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  .product-action__show-all-button {
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-white, #FFFFFF);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+    
+  @media (max-width: 1440px) {
+    #product-action  {
+      width: 100%;
+      padding: 0 1.39vw; /* 20px */
+      display: flex;
+      flex-direction: column;     
+      height: auto; 
+    }  
+    
+    .product-action__content {
+        width: 97.22vw; /* 1400px */
+        /*height: 33.61vw; /* 484px */
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1.39vw 1.39vw; /* 20px 20px */
+        margin-bottom: 1.74vw; /* 25px */
+    }
+    .product-action__block {
+        width: 47.92vw; /* 690px */
+        height: 15.97vw; /* 232px */
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .product-action__block--1 {
+        background-image: url('/images/Акция.png');
+    }
+    
+    .product-action__block--2 {
+        background-image: url('/images/Акция (3).png');
+    }
+    
+    .product-action__block--3 {
+        background-image: url('/images/Акция (1).png');
+    }
+    
+    .product-action__block--4 {
+        background-image: url('/images/Акция (4).png');
+    }
+    
+    
+    .product-action__show-all {
+        width: 22.22vw; /* 320px */
+        height: 3.82vw; /* 55px */
+        background-color: var(--background-dark-blue, #052659);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 6.94vw; /* 100px */
+      }
+      
+      .product-action__show-all-button {
+        width: 100%;
+        height: 100%;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.25vw; /* 18px */
+        font-weight: 500;
+        line-height: 1.51vw; /* 21.78px */
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--text-white, #FFFFFF);
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+  }
+  @media (max-width: 320px) {
+    #product-action {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }    
+    .product-action__content {
+        width: 300px;
+        height: auto;
+        /*height: 336px;*/
+        display: flex;
+        flex-direction: column;
+        gap: 10px; 
+        margin-top: 20px;  
+        margin-bottom: 15px;
+    }
+    .product-action__block--1,
+    .product-action__block--2,
+    .product-action__block--3,
+    .product-action__block--4 {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 117px;
+        background-image: url('/images/Акция_2.png');
+    }
+    .product-action__block--5,
+    .product-action__block--6,
+    .product-action__block--7,
+    .product-action__block--8 {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 117px;
+        background-image: url('/images/Акция_2.png');
+    }
+    .product-action__block-image {
+        width: 300px;
+        height: 117px;
+        object-fit: cover;
+    }
+    .product-action__show-all {
+        width: 300px;
+        height: 44px;  
+    }      
+    .product-action__show-all-button {
+        height: 44px;  
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.94x;        
+    }
+  }  

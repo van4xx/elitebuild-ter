@@ -1,0 +1,137 @@
+.contacts {
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 50px;
+  }
+  
+  .contacts__breadcrumb {
+    width: 135px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    color: var(--text-dark-blue);
+    white-space: nowrap;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .contacts__breadcrumb a {
+    text-decoration: none;
+    color: var(--text-dark-blue);
+  }
+  
+  .contacts__title {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.41px;
+    text-align: left;
+    color: var(--background-dark-blue);
+    margin-bottom: 25px;
+  }
+  
+  .contacts__columns {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contacts__intro p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: var(--text-dark-blue);
+    margin-bottom: 25px;
+  }
+  
+  .contacts__list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .contacts__item {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: var(--text-dark-blue);
+  }
+  
+  .contacts__note p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: var(--text-dark-blue);
+    margin-bottom: 25px;
+  }
+  
+  @media (max-width: 1440px) {
+    .contacts {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  
+    .contacts__breadcrumb {
+      font-size: 0.97vw;
+      line-height: 1.18vw;
+      margin-top: 3.47vw;
+      margin-bottom: 1.74vw;
+    }
+  
+    .contacts__title {
+      font-size: 2.78vw;
+      line-height: 3.36vw;
+      margin-bottom: 1.74vw;
+    }
+  
+    .contacts__item,
+    .contacts__intro p,
+    .contacts__note p {
+      font-size: 1.11vw;
+      line-height: 1.34vw;
+      margin-bottom: 1.74vw;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .contacts {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .contacts__breadcrumb {
+      font-size: 12px;
+      line-height: 14.52px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+  
+    .contacts__title {
+      font-size: 20px;
+      line-height: 24.2px;
+      margin-bottom: 15px;
+    }
+  
+    .contacts__item,
+    .contacts__intro p,
+    .contacts__note p {
+      font-size: 14px;
+      line-height: 16.94px;
+      margin-bottom: 15px;
+    }
+  }
+  
